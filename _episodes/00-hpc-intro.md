@@ -36,8 +36,8 @@ laptop computer where they started:
   might be useful to take advantage of that feature.
 
 In all these cases, what is needed is access to more computers that can be used
-at the same time. Luckily, large scale computing systems &mdash; shared
-computing resources with lots of computers &mdash; are available at many
+at the same time. Luckily, large scale computing systems (shared
+computing resources with lots of computers) are available at many
 universities, labs, or through national networks. Compared to personal computers, these facilities usually have more memory, more storage, and more central processing units (CPUs) -- which operate at higher speeds -- and also have faster connections with other computer systems. They are frequently called "clusters", "supercomputers" or resources for "high performance computing" or HPC. 
 
 Using a cluster often has the following advantages for researchers:
