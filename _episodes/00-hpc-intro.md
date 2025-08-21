@@ -11,7 +11,7 @@ objectives:
 - Identify how an HPC system could benefit you.
 ---
 
-## Why Use These Computers?
+## Why use these computers?
 
 Frequently, research problems that use computing can outgrow the desktop or
 laptop computer where they started:
