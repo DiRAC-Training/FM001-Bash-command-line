@@ -102,10 +102,11 @@ how to use Bash and HPC systems will allow you to operate virtually any modern
 device. With all of this in mind, let's connect to a cluster and get started!
 
 > ## keypoints:
+> 
 > - High Performance Computing (HPC) typically involves connecting to very large
 >  computing systems elsewhere in the world.
 > - These HPC systems can be used to do work that would either be impossible or
 >   much slower or smaller systems.
 > - The standard method of interacting with such systems is via a command line
 >  interface such as Bash. 
-{: .keypoints}
+{: .challenge}
