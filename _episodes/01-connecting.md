@@ -11,13 +11,7 @@ objectives:
 - Connect to a remote HPC system.
 - Understand the importance of keeping SSH keys, and any other credentials, secure.
 - Describe the major benefit of 2-factor authentication.
-keypoints:
-- To connect to a remote HPC system using SSH and a password,
-  run `ssh yourUsername@remote.computer.address`.
-- To connect to a remote HPC system using SSH and an SSH key,
-  run `ssh -i ~/.ssh/key_for_remote_computer yourUsername@remote.computer.address`.
-- Protect your SSH keys by managing them carefully!
-- 2-factor authentication is a way to help ensure a user's identity by requiring two forms of identity evidence.
+
 ---
 
 ## Opening a Terminal
@@ -352,3 +346,12 @@ convention:
 > you see a change from `[local]$` to `{{ site.workshop_host_prompt }}` and
 > disconnect when you see the reverse.
 {: .callout}
+
+keypoints:
+- To connect to a remote HPC system using SSH and a password,
+  run `ssh yourUsername@remote.computer.address`.
+- To connect to a remote HPC system using SSH and an SSH key,
+  run `ssh -i ~/.ssh/key_for_remote_computer yourUsername@remote.computer.address`.
+- Protect your SSH keys by managing them carefully!
+- 2-factor authentication is a way to help ensure a user's identity by requiring two forms of identity evidence.
+- {: .keypoints}
