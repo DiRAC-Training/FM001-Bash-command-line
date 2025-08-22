@@ -26,7 +26,7 @@ Connecting to an HPC system is most often done through a tool known as "SSH"
 (Secure SHell) and is usually run through a terminal. To begin using an
 HPC system, we need to open a terminal. Different operating systems
 have different terminals, none of which are exactly the same in terms of their
-features and abilities while working on the operating system. When connected to
+features and abilities. When connected to
 the remote system, the experience between terminals will be identical as each
 will faithfully present the same experience of using that system.
 
@@ -39,10 +39,9 @@ terminal window can change between flavours. Many Linux users already know how t
 
 ### MacOS
 
-MacOS is built on a UNIX-like operating system and has therefore had a built-in terminal built since its first iteration, leveraging many parts from BSD (Berkeley
+MacOS is built on a UNIX-like operating system and has therefore had a built-in terminal since its first iteration, leveraging many parts from BSD (Berkeley
 Software Distribution). The terminal can be quickly opened through the
-the Spotlight Search tool. Hold down the command key and press the spacebar. In
-the search bar that pops up type "terminal" and choose the terminal app from the
+the Spotlight Search tool. Hold down the command key and press the spacebar. Type "terminal" in the search bar that pops up and choose the terminal app from the
 list of results (it will look like a tiny, black computer screen). You will
 be presented with a terminal window. Alternatively, you can find Terminal under
 "Utilities" in the applications Launchpad.
@@ -127,7 +126,7 @@ authentication when transferring files or for accessing version control systems.
 
 *As part of the registration process for DiRAC you should already have obtained and registered
 SSH keys for accessing DiRAC resources, but the process will be also covered
-here for completeness - as well as to emphasize safe SSH key management.*
+here for completeness - as well as to emphasise safe SSH key management.*
 
 This section will cover how to create a pair of SSH keys - a private key which you keep
 on your own computer and a public key which is placed on the remote HPC system
