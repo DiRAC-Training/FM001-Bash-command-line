@@ -12,11 +12,7 @@ objectives:
 - Construct command pipelines with two or more stages.
 - Explain what usually happens if a program or pipeline isn't given any input
   to process.
-keypoints:
-- The `*` wildcard is used as a placeholder to match any text that follows a
-  pattern.
-- Redirect a command's output to a file with `>`.
-- Commands can be chained with `|`
+
 ---
 
 > ## Required files
@@ -385,4 +381,11 @@ the number of lines from that file.
 > > 
 > > The `head` command without any options shows the first 10 lines of a file.
 >{: .solution}
+> > 
+> > Key points:
+- The `*` wildcard is used as a placeholder to match any text that follows a
+  pattern.
+- Redirect a command's output to a file with `>`.
+- Commands can be chained with `|`
+  {: .keypoints}
 {: .challenge}
