@@ -25,7 +25,7 @@ $ cd hpc-test
 {: .language-bash}
 
 
-## Creating and Editing Text Files
+## Creating and editing text files
 
 When working on an HPC system, we will frequently need to create or edit text
 files. Text is one of the simplest computer file formats, defined as a simple
@@ -110,7 +110,7 @@ draft.txt
 > * `y` &mdash; paste a line
 {: .callout}
 
-## Reading Files
+## Reading files
 
 Let's read the file we just created now. There are a few different ways of
 doing this, one of which is reading the entire file with `cat`.
@@ -144,7 +144,7 @@ it's "share and thrive".
 ```
 {: .output}
 
-> ## Reading Multiple Text Files
+> ## Reading multiple text files
 >
 > Create two more files using `nano`, giving them different names such as
 > `chap1.txt` and `chap2.txt`. Then use a single `cat` command to read and
@@ -152,7 +152,7 @@ it's "share and thrive".
 {: .challenge}
 
 
-## Creating Directory
+## Creating directory
 
 We've successfully created a file. What about a directory? We've actually done
 this before, using `mkdir`.
@@ -168,7 +168,7 @@ chap1.txt  chap2.txt  draft.txt  files
 {: .output}
 
 
-## Moving, Renaming, Copying Files
+## Moving, renaming, copying files
 
 **Moving** &mdash; We will move `draft.txt` to the `files` directory with `mv`
 ("move") command. The same syntax works for both files and directories: `mv
@@ -271,7 +271,7 @@ $ ls
 ```
 {: .language-bash}
 
-> ## Beware the Destructive Power of `rm`!
+> ## Beware the destructive power of `rm`!
 >
 > Depending on the system, using `rm -r` will not prompt you if you're sure you want to
 > proceed with the deletion or not, and `rm -rf` will just do it. This is probably the
@@ -340,7 +340,7 @@ $ wget {{site.url}}{{site.baseurl}}/files/bash-lesson.tar.gz
 > For very large downloads, you might consider using
 > [Aria2](https://aria2.github.io/), which has support for downloading the same
 > file from multiple mirrors. You have to install it separately, but if you
-> have it, try this to get it faster than your neighbors:
+> have it, try this to get it faster than your neighbours:
 >
 > ```
 > $ aria2c {{ site.url }}{{ site.baseurl }}/files/bash-lesson.tar.gz
@@ -512,11 +512,7 @@ remote HPC systems is that of large numbers of files. There is an overhead to
 transferring each individual file and when we are transferring large numbers of
 files these overheads combine to slow down our transfers to a large degree.
 
-This is where using `.tar.gz` files is really useful.
-By *archiving* multiple files into smaller
-numbers of larger files before we transfer the data to improve our transfer
-efficiency. Plus, these types of file are also *compressed* to reduce
-the amount of data we have to transfer and so speed up the transfer.
+This is where using `.tar.gz` files is really useful to improve our transfer efficiency by *archiving* multiple files into smaller numbers of larger files before we transfer the data. Plus, these types of file are also *compressed* to reduce the amount of data we have to transfer, speeding up the process.
 
 The most common archiving command you will use on a (Linux) HPC cluster is
 `tar`. `tar` can be used to combine files into a single archive file and,
@@ -576,7 +572,7 @@ Now let's unpack the archive. We'll run `tar` with a few common flags:
 
 When it's done, check the directory size with `du` and compare.
 
-> ## Extract the Archive
+> ## Extract the archive
 >
 > Create a new directory called `bash-lesson` using `mkdir`.
 > Next, `cd` into that directory.
@@ -627,7 +623,7 @@ When it's done, check the directory size with `du` and compare.
 > > ```
 > > {: .language-bash}
 > >
-> > ## Was the Data Compressed?
+> > ## Was the data compressed?
 > >
 > > Text files compress nicely: the "tarball" is one-quarter the total size of
 > > the raw data!
@@ -643,6 +639,7 @@ that contains the `bash-lesson` directory first, then:
 $ tar -cvzf compressed_data.tar.gz bash-lesson
 ```
 {: .language-bash}
+
 Key points:
 - There are many different text editors available on DiRAC.
 - Use `nano` to create or edit text files from a terminal.
