@@ -21,7 +21,7 @@ sequential manner. These shell scripts can be run whenever we want, and are a
 great way to automate our work.
 
 
-## Writing a Script
+## Writing a script
 
 So how do we write a shell script, exactly? It turns out we can do this with a
 text editor. Start editing a file called "demo.sh" (to recap, we can do this
@@ -185,7 +185,7 @@ script!
 ```
 {: .output}
 
-Now lets try adding this to our script with `nano`. Edit your script to look
+Now let's try adding this to our script with `nano`. Edit your script to look
 something like this:
 
 ```
