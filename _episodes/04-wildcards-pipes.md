@@ -106,6 +106,8 @@ That was easy. What if we wanted to do the same command, except on every file
 in the directory? A nice trick to keep in mind is that `*` by itself matches
 *every* file.
 
+## Creating directory
+
 ```
 $ wc -l *
 ```
@@ -220,7 +222,7 @@ wc: fastq: Is a directory
 ```
 {: .output}
 
-Notice how we still got some output to the console even though we "piped" the
+Note how we still got some output to the console even though we "piped" the
 output to a file? Our expected output still went to the file, but how did the
 error message get skipped and not go to the file?
 
@@ -249,7 +251,7 @@ $ wc -l * &> word_counts.txt
 ```
 {: .language-bash}
 
-Notice how there was no output to the console that time. Let's check that the
+Note how there was no output to the console that time. Let's check that the
 error message went to the file like we specified.
 
 ```
