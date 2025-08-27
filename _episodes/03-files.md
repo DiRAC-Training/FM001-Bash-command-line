@@ -11,19 +11,6 @@ objectives:
 - Understand how to move, create, and delete files.
 - Learn to copy files to/from a remote DiRAC resource.
 - Use and create archival collections of files for efficient file transfer.
-keypoints:
-- There are many different text editors available on DiRAC.
-- Use `nano` to create or edit text files from a terminal.
-- Use `cat file1 [file2 ...]` to print the contents of one or more files to
-  the terminal.
-- Use `mv old dir` to move a file or directory `old` to another directory `dir`.
-- Use `mv old new` to rename a file or directory `old` to a `new` name.
-- Use `cp old new` to copy a file under a new name or location.
-- Use `cp old dir` copies a file `old` into a directory `dir`.
-- Use `rm old` to delete (remove) a file.
-- File extensions are entirely arbitrary on UNIX systems.
-- Use `scp` to transfer files from and to a remote DiRAC resource.
-- Use `tar` to de-archive and archive sets of numerous and/or large files.
 ---
 
 Now that we know how to move around and look at things, let's learn how to
@@ -656,3 +643,17 @@ that contains the `bash-lesson` directory first, then:
 $ tar -cvzf compressed_data.tar.gz bash-lesson
 ```
 {: .language-bash}
+Key points:
+- There are many different text editors available on DiRAC.
+- Use `nano` to create or edit text files from a terminal.
+- Use `cat file1 [file2 ...]` to print the contents of one or more files to
+  the terminal.
+- Use `mv old dir` to move a file or directory `old` to another directory `dir`.
+- Use `mv old new` to rename a file or directory `old` to a `new` name.
+- Use `cp old new` to copy a file under a new name or location.
+- Use `cp old dir` copies a file `old` into a directory `dir`.
+- Use `rm old` to delete (remove) a file.
+- File extensions are entirely arbitrary on UNIX systems.
+- Use `scp` to transfer files from and to a remote DiRAC resource.
+- Use `tar` to de-archive and archive sets of numerous and/or large files.
+{: .keypoints}
