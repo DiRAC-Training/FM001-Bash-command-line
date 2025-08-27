@@ -10,9 +10,7 @@ objectives:
 - Understand and manipulate UNIX permissions
 - Understand shell variables and how to use them
 - Write a simple "for" loop.
-keypoints:
-- A shell script is just a list of bash commands in a text file.
-- To make a shell script file executable, run `chmod +x script.sh`.
+
 ---
 
 We now know a lot of UNIX commands! Wouldn't it be great if we could save
@@ -524,3 +522,8 @@ gene_association.fb.gz
 > > all (third position).
 >{: .solution}
 {: .challenge}
+> >
+> > Key points:
+- A shell script is just a list of bash commands in a text file.
+- To make a shell script file executable, run `chmod +x script.sh`.
+{: .keypoints}
