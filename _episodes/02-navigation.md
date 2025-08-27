@@ -431,7 +431,7 @@ Mandatory arguments to long options are mandatory for short options too.
 >{: .solution}
 {: .challenge}
 
-> ## Relative Path Resolution
+> ## RelativepPath resolution
 >
 > Using the filesystem diagram below, if `pwd` displays `/Users/thing`, what
 > will `ls -F ../backup` display?
@@ -452,7 +452,7 @@ Mandatory arguments to long options are mandatory for short options too.
 >{: .solution}
 {: .challenge}
 
-> ## `ls` Reading Comprehension
+> ## `ls` Reading comprehension
 >
 > Assuming a directory structure as in the above Figure (File System for
 > Challenge Questions), if `pwd` displays `/Users/backup`, and `-r` tells `ls`
@@ -476,7 +476,7 @@ Mandatory arguments to long options are mandatory for short options too.
 >{: .solution}
 {: .challenge}
 
-> ## Exploring More `ls` Arguments
+> ## Exploring more `ls` arguments
 >
 > What does the command `ls` do when used with the `-l` and `-h` arguments?
 >
@@ -494,7 +494,7 @@ Mandatory arguments to long options are mandatory for short options too.
 >{: .solution}
 {: .challenge}
 
-> ## Listing Recursively and By Time
+> ## Listing recursively and by time
 >
 > The command `ls -R` lists the contents of directories recursively, i.e.,
 > lists their sub-directories, sub-sub-directories, and so on in alphabetical
@@ -509,6 +509,7 @@ Mandatory arguments to long options are mandatory for short options too.
 > > files/directories in each directory are sorted by time of last change.
 >{: .solution}
 {: .challenge}
+> > 
 Key points:
 - Your current directory is referred to as the working directory.
 - To change directories, use `cd`.
