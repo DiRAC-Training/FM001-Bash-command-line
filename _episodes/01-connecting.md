@@ -185,7 +185,7 @@ On Windows you can use one of the following:
 
 > ##### Private keys are your private identity
 >
-> A private key that is visible to anyone but you should be considered compromised,
+> A private key that is visible to anyone but you should be considered compromised
 > and must be destroyed. This includes having improper permissions on the directory
 > it is stored in, traversing any network in the clear, attachment on
 > unencrypted email, and even displaying the key (which is ASCII text) in your
