@@ -9,7 +9,7 @@ objectives:
 - Learn how to navigate around directories and look at their contents
 - Explain the difference between a file and a directory.
 - Translate an absolute path into a relative path and vice versa.
-- Identify the actual command, flags, and filenames in a commandline call.
+- Identify the actual command, flags, and filenames in a command line call.
 - Demonstrate the use of tab completion, and explain its advantages.
 ---
 
