@@ -410,7 +410,7 @@ gene_association.fb.gz
 ```
 {: .output}
 
-> ## Writing our own scripts and loops
+## Writing our own scripts and loops
 >
 > `cd` to our `fastq` directory from earlier and write a loop to print off the
 > name and top 4 lines of every fastq file in that directory.
@@ -436,7 +436,7 @@ gene_association.fb.gz
 >{: .solution}
 {: .challenge}
 
-> ## Concatenating variables
+## Concatenating variables
 >
 > Concatenating (i.e. mashing together) variables is quite easy to do. Add
 > whatever you want to concatenate to the beginning or end of the shell
@@ -487,7 +487,7 @@ gene_association.fb.gz
 {: .challenge}
 
 
-> ## Special permissions
+## Special permissions
 >
 > What if we want to give different sets of users different permissions.
 > `chmod` actually accepts special numeric codes instead of stuff like `chmod
@@ -523,7 +523,7 @@ gene_association.fb.gz
 >{: .solution}
 {: .challenge}
 > >
->## Key points:
+## Key points:
 - A shell script is just a list of bash commands in a text file.
 - To make a shell script file executable, run `chmod +x script.sh`.
 >
