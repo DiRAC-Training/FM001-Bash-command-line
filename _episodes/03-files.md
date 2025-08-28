@@ -324,8 +324,7 @@ $ wget {{site.url}}{{site.baseurl}}/files/bash-lesson.tar.gz
 > ## Problems with `wget`?
 >
 > `wget` is a stand-alone application for downloading things over HTTP/HTTPS
-> and FTP/FTPS connections, and it does the job admirably &mdash; when it is
-> installed.
+> and FTP/FTPS connections, and it does the job admirably &mdash; when installed.
 >
 > Some operating systems instead come with [cURL]( https://curl.haxx.se/),
 > which is the command-line interface to `libcurl`, a powerful library for
