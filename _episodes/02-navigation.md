@@ -352,7 +352,7 @@ to use a mouse or laptop trackpad to scroll through the pages. You can quit the
 `man` pages by typing "q".
 
 Alternatively, most commands you run will have a `--help` option that displays
-addition information For instance, with `ls`:
+additional information For instance, with `ls`:
 
 ```
 $ ls --help
