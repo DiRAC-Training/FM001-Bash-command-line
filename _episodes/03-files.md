@@ -505,7 +505,7 @@ $ scp -r some-local-folder yourUsername@login7.cosma.dur.ac.uk:
 {: .callout}
 
 
-## Archiving Files
+## Archiving files
 
 One of the biggest challenges we often face when transferring data between
 remote HPC systems is that of large numbers of files. There is an overhead to
