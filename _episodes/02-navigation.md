@@ -431,7 +431,7 @@ Mandatory arguments to long options are mandatory for short options too.
 >{: .solution}
 {: .challenge}
 
-> ## RelativepPath resolution
+> ## Relative path resolution
 >
 > Using the filesystem diagram below, if `pwd` displays `/Users/thing`, what
 > will `ls -F ../backup` display?
@@ -516,4 +516,5 @@ Mandatory arguments to long options are mandatory for short options too.
 - To view files, use `ls`.
 - You can view help for a command with `man command` or `command --help`. 
 - Hit `tab` to autocomplete whatever you're currently typing.
-{: .keypoints}
+>
+{: .key}
