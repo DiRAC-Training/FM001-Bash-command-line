@@ -8,15 +8,13 @@ questions:
 objectives:
 - "Use a Bash script we've written within a pipe."
 - "Create a Bash script that reads input from other commands within a pipe."
-keypoints:
-- "You can include your own Bash scripts in pipes."
-- "A common and useful pattern in Bash shell is to run a program or script that generates potentially a lot of output, then use pipes to filter out what you're really after."
+
 ---
 
 As we've seen in a previous lesson, one of the great things about shells like Bash is that you can chain commands together using pipes, but what about our own scripts?
 
 
-## Using our own Scripts in Pipes
+## Using our own scripts in pipes
 
 We've already seen how we can compose commands together using pipes, like so:
 
@@ -59,7 +57,7 @@ dmel_unique_protein_isoforms_fb_2016_01.tsv
 
 After printing out four lines of output, the pipe terminates.
 
-## Accepting Input into Our Script
+## Accepting input into our script
 
 Our previous example shows how we can include the output from our commands within a pipe. But what about how we might process input with our script? We can do this using `read` in Bash. Write a new script called `filter.sh`:
 
@@ -90,7 +88,7 @@ dmel-all-r6.19.gtf
 
 Note that this pattern is quite a common one with the Bash shell: we're running a program that gives us potentially a lot of output, and we're filtering out in some way just what we're interested in.
 
-> ## Simple is Good
+> ## Simple is good
 > 
 > Wherever possible, we should always try to simplify the code we write, removing any extraneous use of scripts or code that isn't needed. This enhances readability and makes our code easier to understand.
 > 
@@ -106,3 +104,8 @@ Note that this pattern is quite a common one with the Bash shell: we're running 
 > > By using the `grep` directly in the pipe, we've removed the need for a separate script, simplifying the pipe.
 >{: .solution}
 {: .challenge}
+
+Key points:
+- "You can include your own Bash scripts in pipes."
+- "A common and useful pattern in Bash shell is to run a program or script that generates potentially a lot of output, then use pipes to filter out what you're really after."
+{: .keypoints}  
