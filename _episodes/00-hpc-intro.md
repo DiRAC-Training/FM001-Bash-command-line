@@ -29,9 +29,9 @@ laptop computer where they started:
   might be useful to take advantage of that feature.
 
 In all these cases, what is needed is access to more computers that can be used
-at the same time. Luckily, large scale computing systems (shared
+at the same time. Luckily, large-scale computing systems (shared
 computing resources with lots of computers) are available at many
-universities, labs, or through national networks. Compared to personal computers, these facilities usually have more memory, more storage, and more central processing units (CPUs) -- which operate at higher speeds, and also have faster connections with other computer systems. They are frequently called "clusters", "supercomputers" or resources for "high performance computing" or HPC. 
+universities, labs, or through national networks. Compared to personal computers, these facilities usually have more memory, more storage, and more central processing units (CPUs) -- which operate at higher speeds, and also have faster connections with other computing systems. They are frequently called "clusters", "supercomputers" or resources for "high performance computing" or HPC. 
 
 Using a cluster often has the following advantages for researchers:
 
@@ -60,7 +60,7 @@ like those listed at the start of the lesson.
 > into.
 {: .challenge}
 
-## The Command Line
+## The Command line
 
 Using HPC systems often involves the use of a shell through a command line
 interface (CLI) and either specialised software or programming techniques. The shell is a program with the special role of running other programs rather than performing calculations or similar tasks itself; it is called “the shell” because it encloses the operating system in order to hide some of its complexity and make it simpler to interact with. The user types commands that are sent to the shell, which then figures out what commands to run and orders the computer to execute them. The most popular Unix shell is Bash, the Bourne Again SHell (so-called because it's derived from a shell written by Stephen Bourne). Bash is the default shell on most modern implementations of Unix and in most packages that provide Unix-like tools for Windows.
