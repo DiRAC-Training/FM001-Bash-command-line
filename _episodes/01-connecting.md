@@ -194,7 +194,7 @@ On Windows you can use one of the following:
 > For DiRAC, how security is implemented often differs from site-to-site
 > in terms of operating procedures, security policies, and mechanisms and tools 
 > used for security. The key thing is to be aware of which programs are using
-> your SSH keys as well as any other types of credential you may have. If using
+> your SSH keys as well as any other types of credentials you may have. If using
 > multiple DiRAC resources it's likely you will have multiple keys, so managing
 > them in a secure way is very important.
 > 
