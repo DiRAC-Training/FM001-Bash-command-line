@@ -44,7 +44,7 @@ Using a cluster often has the following advantages for researchers:
   on by many users. In most cases when the pool is large and diverse enough the
   resources on the system are used almost constantly.
 * **Cost.** Bulk purchasing and government funding mean that the cost to the
-  research community for using these systems in significantly less that it
+  research community for using these systems in significantly less than it
   would be otherwise.
 * **Convenience.** Maybe your calculations just take a long time to run or are
   otherwise inconvenient to run on your personal computer. There’s no need to tie up your own computer for hours when you can use a purpose-built facility instead.
