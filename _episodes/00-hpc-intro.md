@@ -110,4 +110,4 @@ device. With all of this in mind, let's connect to a cluster and get started!
 > - The standard method of interacting with such systems is via a command line
 >  interface such as Bash.
 >
-{: .keypoint}
+{: .key}
