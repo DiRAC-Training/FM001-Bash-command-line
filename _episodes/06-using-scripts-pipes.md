@@ -105,7 +105,7 @@ Note that this pattern is quite a common one with the Bash shell: we're running 
 >{: .solution}
 {: .challenge}
 
-Key points:
+## Key points:
 - "You can include your own Bash scripts in pipes."
 - "A common and useful pattern in Bash shell is to run a program or script that generates potentially a lot of output, then use pipes to filter out what you're really after."
 {: .keypoints}  
