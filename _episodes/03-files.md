@@ -653,4 +653,5 @@ $ tar -cvzf compressed_data.tar.gz bash-lesson
 - File extensions are entirely arbitrary on UNIX systems.
 - Use `scp` to transfer files from and to a remote DiRAC resource.
 - Use `tar` to de-archive and archive sets of numerous and/or large files.
-{: .keypoints}
+>
+{: .key}
