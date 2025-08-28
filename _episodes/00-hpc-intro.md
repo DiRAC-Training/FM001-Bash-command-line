@@ -63,7 +63,7 @@ like those listed at the start of the lesson.
 ## The Command line
 
 Using HPC systems often involves the use of a shell through a command line
-interface (CLI) and either specialised software or programming techniques. The shell is a program with the special role of running other programs rather than performing calculations or similar tasks itself; it is called “the shell” because it encloses the operating system in order to hide some of its complexity and make it simpler to interact with. The user types commands that are sent to the shell, which then figures out what commands to run and orders the computer to execute them. The most popular Unix shell is Bash, the Bourne Again SHell (so-called because it's derived from a shell written by Stephen Bourne). Bash is the default shell on most modern implementations of Unix and in most packages that provide Unix-like tools for Windows.
+interface (CLI) and either specialised software or programming techniques. The shell is a program with the special role of running other programs rather than performing calculations or similar tasks itself; it is called “the shell” because it encloses the operating system in order to hide some of its complexity and make it simpler to interact with. The user types commands that are sent to the shell, which then figures out what commands to run and orders the computer to execute them. The most popular Unix shell is Bash, the Bourne Again Shell (so-called because it's derived from a shell written by Stephen Bourne). Bash is the default shell on most modern implementations of Unix and in most packages that provide Unix-like tools for Windows.
 
 Interacting with the shell is done via a CLI on most
 HPC systems. In the earliest days of computing, the only way to interact with
