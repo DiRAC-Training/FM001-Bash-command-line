@@ -243,7 +243,7 @@ every system will be exactly like this one across DiRAC, it's a very good
 example of what you can expect from an HPC installation. To connect to our
 example computer, we will use SSH.
 
-SSH allows us to connect to UNIX computers remotely, and use them as if they
+SSH allows us to connect to UNIX computers remotely and use them as if they
 were our own. The general syntax of the connection command follows the format
 `ssh -i ~/.ssh/key_for_remote_computer yourUsername@remote.computer.address`
 when using SSH keys and `ssh yourUsername@some.computer.address` if only
