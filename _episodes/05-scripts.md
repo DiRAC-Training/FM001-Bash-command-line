@@ -523,7 +523,8 @@ gene_association.fb.gz
 >{: .solution}
 {: .challenge}
 > >
-> >## Key points:
+>## Key points:
 - A shell script is just a list of bash commands in a text file.
 - To make a shell script file executable, run `chmod +x script.sh`.
-{: .keypoints}
+>
+{: .key}
