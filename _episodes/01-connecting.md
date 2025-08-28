@@ -347,7 +347,7 @@ convention:
 > disconnect when you see the reverse.
 {: .callout}
 
-Key points:
+## Key points:
 - To connect to a remote HPC system using SSH and a password,
   run `ssh yourUsername@remote.computer.address`.
 - To connect to a remote HPC system using SSH and an SSH key,
