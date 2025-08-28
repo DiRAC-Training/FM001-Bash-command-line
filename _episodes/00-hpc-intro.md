@@ -19,7 +19,7 @@ laptop computer where they started:
 * A cosmology student wants to cross-validate their model. This involves
   running the model thousands of times, but each run takes an hour.
   Running on their laptop will take over a month!
-* A astronomy researcher has been using small datasets of sequence data, but
+* An astronomy researcher has been using small datasets of sequence data, but
   soon will be receiving a new type of sequencing data that is 10 times as
   large. It's already challenging to open the datasets on their computer,
   analysing these larger datasets will probably crash it.
