@@ -29,16 +29,12 @@ We now list the procedure for opening a terminal in three popular operating syst
 ### Linux
 
 There are many different versions (aka "flavours") of Linux and how to open a
-terminal window can change between flavours. Many Linux users already know how to open a terminal window since it is a common part of the workflow for Linux users. Sometimes a terminal icon will be present on the workbar by default or can be searched for through the opening menu. If neither of these options provides a suitable answer, a quick search on the internet for “how to open a terminal window in” with your particular Linux flavour appended to the end should quickly give you the directions you need.
+terminal window can change between flavours. Many Linux users already know how to open a terminal window since it is a common part of their workflow. Sometimes a terminal icon will be present on the workbar by default or can be searched for through the opening menu. If neither of these options provides a suitable answer, a quick search on the internet for “how to open a terminal window in” with your particular Linux flavour appended to the end should quickly give you the directions you need.
 
 ### MacOS
 
-MacOS is built on a UNIX-like operating system and has therefore had a built-in terminal since its first iteration, leveraging many parts from BSD (Berkeley
-Software Distribution). The terminal can be quickly opened through the
-the Spotlight Search tool. Hold down the command key and press the spacebar. Type "terminal" in the search bar that pops up and choose the terminal app from the
-list of results (it will look like a tiny, black computer screen). You will
-be presented with a terminal window. Alternatively, you can find Terminal under
-"Utilities" in the applications Launchpad.
+MacOS is built on a UNIX-like operating system and has therefore a built-in terminal since its first iteration, leveraging many parts from BSD (Berkeley
+Software Distribution). The terminal can be quickly opened through the Spotlight Search tool. Hold down the command key and press the spacebar. Type "terminal" in the search bar that pops up and choose the terminal app from the list of results (it will look like a tiny, black computer screen). You will be presented with a terminal window. Alternatively, you can find Terminal under "Utilities" in the applications Launchpad.
 
 ### Windows
 
