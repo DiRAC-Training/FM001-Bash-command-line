@@ -308,29 +308,17 @@ There are several login nodes associated with the COSMA7 cluster, to which you w
 
 In order to exit the shell - and subsequently close the remote connection - you can either type `exit` followed by enter, or press <kbd>Ctrl</kbd> + <kbd>D</kbd>.
 
-## Telling the Difference between the Local Terminal and the Remote Terminal
+## Telling the difference between the local terminal and the remote terminal
 
-You may have noticed that the prompt changed when you logged into the remote
-system using the terminal (if you logged in using PuTTY this will not apply
-because it does not offer a local terminal). This change is important because
-it makes it clear on which system the commands you type will be run when you
-pass them into the terminal. This change is also a small complication that we
-will need to navigate throughout the workshop. Exactly what is reported before
-the `$` in the terminal when it is connected to the local system and the remote
-system will typically be different for every user. We still need to indicate
-which system we are entering commands on though so we will adopt the following
-convention:
+You may have noticed that the prompt changed when you logged into the remote system using the terminal (if you logged in using PuTTY this will not apply because it does not offer a local terminal). This change is important because it makes it clear on which system the commands you type will be run when you pass them into the terminal. This change is also a small complication that we will need to navigate throughout the workshop. Exactly what is reported before the `$` in the terminal when it is connected to the local system and the remote system will typically be different for every user. We still need to indicate which system we are entering commands on though, so we will adopt the following convention:
 
-- `[local]$` when the command is to be entered on a terminal connected to your
-  local computer.
-- `[yourUsername@login7a [cosma7] ~]$` when the command is to be entered on a
-  terminal connected to the remote system.
+- `[local]$` when the command is to be entered on a terminal connected to your local computer.
+- `[yourUsername@login7a [cosma7] ~]$` when the command is to be entered on a terminal connected to the remote system.
 - `$` when it really doesn't matter which system the terminal is connected to.
 
 > ## Being certain which system your terminal is connected to
 >
-> If you ever need to be certain which system a terminal you are using is
-> connected to then use the following command: `hostname`.
+> If you ever need to be certain which system a terminal you are using is connected to, then use the following command: `hostname`.
 {: .callout}
 
 > ## Keep two terminal windows open
