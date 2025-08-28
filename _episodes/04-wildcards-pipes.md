@@ -389,5 +389,6 @@ the number of lines from that file.
   pattern.
 - Redirect a command's output to a file with `>`.
 - Commands can be chained with `|`
-  {: .keypoints}
-{: .challenge}
+>
+ {: .key}
+
