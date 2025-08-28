@@ -354,4 +354,5 @@ convention:
   run `ssh -i ~/.ssh/key_for_remote_computer yourUsername@remote.computer.address`.
 - Protect your SSH keys by managing them carefully!
 - 2-factor authentication is a way to help ensure a user's identity by requiring two forms of identity evidence.
-- {: .keypoints}
+>
+{: .key}
