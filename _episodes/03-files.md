@@ -273,11 +273,7 @@ $ ls
 
 > ## Beware the destructive power of `rm`!
 >
-> Depending on the system, using `rm -r` will not prompt you if you're sure you want to
-> proceed with the deletion or not, and `rm -rf` will just do it. This is probably the
-> scariest command on UNIX - it will delete a directory and all of its contents without prompting. **ALWAYS** double check your typing before using it... if you leave out the arguments, it will attempt 
-> to delete everything on your file system that you have permission to delete. So when deleting 
-> directories be very, very careful.
+> Depending on the system, using `rm -r` will not prompt you if you're sure you want to proceed with the deletion or not, and `rm -rf` will just do it. This is probably the scariest command on UNIX - it will delete a directory and all of its contents without prompting. **ALWAYS** double check your typing before using it... if you leave out the arguments, it will attempt to delete everything on your filesystem that you have permission to delete. So when deleting directories be very, very careful.
 {: .caution}
 
 ```
