@@ -640,7 +640,7 @@ $ tar -cvzf compressed_data.tar.gz bash-lesson
 ```
 {: .language-bash}
 
-Key points:
+## Key points:
 - There are many different text editors available on DiRAC.
 - Use `nano` to create or edit text files from a terminal.
 - Use `cat file1 [file2 ...]` to print the contents of one or more files to
