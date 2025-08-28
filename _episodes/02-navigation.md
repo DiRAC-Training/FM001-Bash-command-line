@@ -131,7 +131,7 @@ $ pwd
 ```
 {: .output}
 
-Now that we know how to use `cd`, we can go anywhere. That's a lot of
+Now that we now know how to use `cd`, we can go anywhere. That's a lot of
 responsibility. What happens if we get "lost" and want to get back to where we
 started?
 
