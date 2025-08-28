@@ -18,7 +18,7 @@ happened yet, and we're not going to be able to do anything until we learn a
 few basic commands. By the end of this lesson, you will know how to "move
 around" the system and look at what's there.
 
-Right now, all we see is something that looks something like this:
+Right now, all we see is something that look like this:
 
 ~~~
 [yourUsername@login7a [cosma7] ~]$
