@@ -384,7 +384,7 @@ the number of lines from that file.
 > > The `head` command without any options shows the first 10 lines of a file.
 >{: .solution}
 > > 
-> > Key points:
+> >## Key points:
 - The `*` wildcard is used as a placeholder to match any text that follows a
   pattern.
 - Redirect a command's output to a file with `>`.
