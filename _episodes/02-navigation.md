@@ -189,7 +189,7 @@ changed as you install new software or upgrade your OS.
 >   is not usually backed up, and should not be used for long term storage.
 > * **Work filesystem/Data space** - As an alternative to (or sometimes as well as)
 >   Scratch space, some HPC systems offer fast filesystem access as a work
->   file system. Typically, this will have higher performance than your home
+>   filesystem. Typically, this will have higher performance than your home
 >   directory or network filesystem and may not be backed up. It differs from
 >   scratch space in that files in a work filesystem are not automatically
 >   deleted for you, you must manage the space yourself. This will be part of your data allocation.
