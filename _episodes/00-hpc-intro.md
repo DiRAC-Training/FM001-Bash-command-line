@@ -108,5 +108,6 @@ device. With all of this in mind, let's connect to a cluster and get started!
 > - These HPC systems can be used to do work that would either be impossible or
 >   much slower or smaller systems.
 > - The standard method of interacting with such systems is via a command line
->  interface such as Bash. 
+>  interface such as Bash.
+>
 {: .keypoint}
