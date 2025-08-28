@@ -248,7 +248,7 @@ $ ls -a
 ```
 {: .output}
 
-Notice how both `.` and `..` are visible as hidden files. Show files, their
+Note how both `.` and `..` are visible as hidden files. Show files, their
 size in bytes, date last modified, permissions, and other things with `-l`.
 
 ```
