@@ -106,7 +106,7 @@ If nothing shows up when you run `ls`, it means that nothing's there. Let's
 make a directory for us to play with.
 
 `mkdir <new directory name>` makes a new directory with that name in your
-current location. Notice that this command required two pieces of input: the
+current location. Note that this command required two pieces of input: the
 actual name of the command (`mkdir`) and an argument that specifies the name of
 the directory you wish to create.
 
