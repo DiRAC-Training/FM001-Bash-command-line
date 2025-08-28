@@ -25,7 +25,7 @@ $ ls | head -5 | tail -2
 
 So what about our own scripts? The good news is that we can use scripts we write in pipes as well, chaining together sequences of commands using them too. And this emphasises a key strength of shells like Bash: the ability to compose simple programs together to accomplish complex tasks.
 
-This simple idea is why systems like Unix - and its successors like Linux - have been so successful. Instead of creating enormous programs that try to do many different things, Unix programmers focus on creating lots of simple tools that each do one job well, and that work well with each other.
+This simple idea is why systems like Unix - and its successors like Linux - have been so successful. Instead of creating enormous programs that try to do many different things, Unix programmers focus on creating lots of simple tools that each do one job well and work well with each other.
 
 So let's go back to a previous script we've used. Replace `loop.sh` with the following:
 
