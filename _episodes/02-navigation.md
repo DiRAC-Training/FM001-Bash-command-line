@@ -510,7 +510,7 @@ Mandatory arguments to long options are mandatory for short options too.
 >{: .solution}
 {: .challenge}
 > > 
-Key points:
+## Key points:
 - Your current directory is referred to as the working directory.
 - To change directories, use `cd`.
 - To view files, use `ls`.
