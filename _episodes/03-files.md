@@ -511,7 +511,7 @@ remote HPC systems is that of large numbers of files. There is an overhead to
 transferring each individual file and when we are transferring large numbers of
 files these overheads combine to slow down our transfers to a large degree.
 
-This is where using `.tar.gz` files is really useful to improve our transfer efficiency by *archiving* multiple files into smaller numbers of larger files before we transfer the data. Plus, these types of file are also *compressed* to reduce the amount of data we have to transfer, speeding up the process.
+This is where using .tar.gz files is really useful, to improve our transfer efficiency by archiving multiple files into smaller numbers of larger files before we transfer the data. Plus, these types of file are also *compressed* to reduce the amount of data we have to transfer, speeding up the process.
 
 The most common archiving command you will use on a (Linux) HPC cluster is
 `tar`. `tar` can be used to combine files into a single archive file and,
