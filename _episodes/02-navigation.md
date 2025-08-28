@@ -318,10 +318,7 @@ drwxr-x--- 7 yourUsername ds007 270 Jun 16 14:02 ..
 
 ## Where to go for help?
 
-How did I know about the `-l` and `-a` options? Is there a manual we can look
-at for help when we need help? There is a very helpful manual for most UNIX
-commands: `man` (if you've ever heard of a "man page" for something, this is
-what it is).
+How did I know about the `-l` and `-a` options? Is there a manual we can look at when we need help? There is a very helpful manual for most UNIX commands: `man` (if you've ever heard of a "man page" for something, this is what it is).
 
 ```
 $ man ls
