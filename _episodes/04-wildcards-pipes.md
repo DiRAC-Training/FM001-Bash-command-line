@@ -243,7 +243,7 @@ Let's dissect these three streams of input/output in the command we just ran:
   can redirect just `stderr` using `2>`.)
 
 Knowing what we know now, let's try re-running the command, and send all of the
-output (including the error message) to the same `word_counts.txt` files as
+output (including the error message) to the same `word_counts.txt` file as
 before.
 
 ```
