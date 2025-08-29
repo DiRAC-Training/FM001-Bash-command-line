@@ -34,7 +34,7 @@ Our shell script will have two parts:
   ["hash-bang"](https://en.wikipedia.org/wiki/Shebang_(Unix)))
   tells our computer what program to run our script with. In this case, we are
   telling it to run our script with our command-line shell (what we've been
-  doing everything in so far). If we wanted our script to be run with something
+  doing everything with so far). If we wanted our script to be run with something
   else, like Perl, we could add `#!/usr/bin/perl`
 * Now, anywhere below the first line, add `echo "Our script worked!"`. When our
   script runs, `echo` will happily print out `Our script worked!`.
